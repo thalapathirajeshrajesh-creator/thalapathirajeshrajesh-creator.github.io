@@ -1,1 +1,120 @@
-# thalapathirajeshrajesh-creator.github.io
+# thalapathirajeshrajesh-creator.github.ioHTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RUDRA VISUALS | Photography & Films</title>
+<meta name="description" content="RUDRA VISUALS - Wedding Photography, Candid Photography and Cinematic Wedding Films in Coimbatore.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:#090909;color:white;font-family:Arial,sans-serif}
+header{padding:20px 7%;display:flex;justify-content:space-between;align-items:center;background:#101010;position:sticky;top:0;z-index:10}
+.logo{font-size:23px;font-weight:bold;color:#d8b46a;letter-spacing:2px}
+nav a{color:white;text-decoration:none;margin-left:18px;font-size:13px}
+.hero{min-height:570px;display:flex;align-items:center;padding:70px 8%;background:linear-gradient(90deg,#000e,#0005),url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1600') center/cover}
+.hero h1{font-size:55px;color:#e4c17b;margin:15px 0}
+.hero p{font-size:17px;line-height:1.8;max-width:520px}
+.tag{color:#e4c17b;letter-spacing:4px}
+.btn{display:inline-block;margin-top:25px;padding:14px 27px;background:#d5ae62;color:#111;text-decoration:none;font-weight:bold;border-radius:3px}
+section{padding:75px 8%;text-align:center}
+h2{font-size:32px;color:#dfbd79;margin-bottom:15px}
+.sub{color:#aaa;margin-bottom:35px}
+.services,.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.service{padding:35px 20px;background:#171717;border:1px solid #393027}
+.service h3{color:#e0bd79;margin-bottom:12px}
+.service p{color:#bbb;line-height:1.7}
+.gallery img{width:100%;height:260px;object-fit:cover;border-radius:4px}
+.packages{background:#121212}
+.package{background:#1b1b1b;padding:30px;border:1px solid #8b7042}
+.package h3{color:#e0bd79;margin-bottom:12px}
+.package p{color:#bbb;line-height:1.8}
+.contact{background:#17130d}
+footer{padding:25px;text-align:center;background:#050505;color:#999;font-size:13px}
+@media(max-width:600px){
+header{padding:17px 5%;flex-wrap:wrap;gap:15px}
+nav{width:100%;display:flex;justify-content:space-between}
+nav a{margin:0;font-size:12px}
+.hero{min-height:500px;padding:50px 7%}
+.hero h1{font-size:39px}
+section{padding:55px 6%}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">RUDRA VISUALS</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<div>
+<div class="tag">CAPTURING YOUR BEAUTIFUL MOMENTS</div>
+<h1>RUDRA VISUALS</h1>
+<p>Wedding Photography | Candid Photography | Cinematic Films</p>
+<p>Every moment has a story. We capture it beautifully.</p>
+<a class="btn" href="https://wa.me/918220003077">BOOK YOUR SHOOT</a>
+</div>
+</div>
+
+<section id="services">
+<h2>OUR SERVICES</h2>
+<p class="sub">Professional Photography & Cinematic Films</p>
+<div class="services">
+<div class="service"><h3>Wedding Photography</h3><p>Beautiful traditional wedding memories.</p></div>
+<div class="service"><h3>Candid Photography</h3><p>Natural emotions and unforgettable moments.</p></div>
+<div class="service"><h3>Cinematic Films</h3><p>Creative wedding films with cinematic storytelling.</p></div>
+<div class="service"><h3>Traditional Video</h3><p>Complete event video coverage.</p></div>
+</div>
+</section>
+
+<section id="gallery">
+<h2>OUR GALLERY</h2>
+<p class="sub">A glimpse of beautiful moments</p>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=700" alt="Wedding photography">
+<img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=700" alt="Wedding couple">
+<img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=700" alt="Wedding ceremony">
+<img src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?w=700" alt="Wedding celebration">
+</div>
+</section>
+
+<section class="packages" id="packages">
+<h2>PHOTOGRAPHY PACKAGES</h2>
+<p class="sub">Choose a package that suits your celebration</p>
+<div class="services">
+<div class="package">
+<h3>Wedding Photography</h3>
+<p>Traditional Photography<br>Traditional Video<br>Album & Photo Frames<br>Contact us for price</p>
+</div>
+<div class="package">
+<h3>Cinematic Package</h3>
+<p>Candid Photography<br>Cinematic Wedding Film<br>Creative Highlights<br>Contact us for price</p>
+</div>
+</div>
+<a class="btn" href="https://wa.me/918220003077">ENQUIRE NOW</a>
+</section>
+
+<section class="contact" id="contact">
+<h2>CONTACT US</h2>
+<p class="sub">Let's capture your special moments!</p>
+<p>RUDRA VISUALS</p>
+<p>Coimbatore, Tamil Nadu</p>
+<p>Phone: +91 82200 03077</p>
+<a class="btn" href="https://wa.me/918220003077">WHATSAPP US</a>
+</section>
+
+<footer>
+© 2026 RUDRA VISUALS. All Rights Reserved.
+</footer>
+
+</body>
+</html>
